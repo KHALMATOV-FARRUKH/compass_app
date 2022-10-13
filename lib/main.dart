@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           const SizedBox(height: 50.0,),
           // Now let's show the compass
-          Padding(padding: EdgeInsets.all(18.0),
+          Padding(padding: const EdgeInsets.all(18.0),
             child: Stack(
               alignment: Alignment.center,
               children: [
